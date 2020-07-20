@@ -65,12 +65,12 @@ int main() {
 	
 	while (1) {
 		// Do Tasks Here
-		syslog(LOG_NOTICE, "Daevmon Begun!\n\n");
+		syslog(LOG_NOTICE, "Daevmon has Begun!\n\n");
 		sleep(5);
 		break;
 	}
 
-	syslog(LOG_NOTICE, "Process Terminated!\n");
+	syslog(LOG_NOTICE, "Process has Been Terminated!\n");
 	closelog();
 
 	return 0;
